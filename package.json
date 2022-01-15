@@ -8,6 +8,9 @@
     "build": "npx pkg ."
   },
   "pkg": {
+    "scripts": [
+      "build/**/*.js"
+    ],
     "assets": [
       "views/**/*",
       "public/**/*"
@@ -25,6 +28,7 @@
     "ejs": "~2.6.1",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
+    "lodash": "^4.17.21",
     "morgan": "~1.9.1"
   }
 }

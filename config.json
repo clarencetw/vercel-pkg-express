@@ -1,0 +1,16 @@
+{
+    "development": {
+        "env": "development",
+        "json_indentation": 4,
+        "port": 3000
+    },
+    "testing": {
+        "env": "testing"
+    },
+    "staging": {
+        "env": "staging"
+    },
+    "production": {
+        "env": "production"
+    }
+}

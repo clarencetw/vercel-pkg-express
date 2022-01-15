@@ -8,6 +8,9 @@
     "build": "npx pkg ."
   },
   "pkg": {
+    "scripts": [
+      "build/**/*.js"
+    ],
     "assets": [
       "views/**/*",
       "public/**/*"

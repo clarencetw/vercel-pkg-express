@@ -1,6 +1,9 @@
 const _ = require('lodash');
+const path = require('path');
 
-const config = path.join(__dirname, 'config.json');
+const isPkg = process.pkg ? true : false;
+const cwd = isPkg ? path.dirname(process.execPath) : path.dirname(__dirname);
+const config = require(path.join(cwd, 'config.json'));
 const defaultConfig = config.development;
 const environment = process.env.NODE_ENV || 'development';
 const environmentConfig = config[environment];

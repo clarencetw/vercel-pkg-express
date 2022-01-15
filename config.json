@@ -1,0 +1,8 @@
+{
+    "development": {
+        "json_indentation": 4
+    },
+    "testing": {},
+    "staging": {},
+    "production": {}
+}
